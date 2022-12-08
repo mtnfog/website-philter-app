@@ -23,7 +23,6 @@
 		<script>hljs.highlightAll();</script>
 		<script>hljs.addPlugin(new CopyButtonPlugin());<ffea/script>
 
-		{% if jekyll.environment == 'production' %}
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -31,14 +30,11 @@
 				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-K88LNBM');</script>
 		<!-- End Google Tag Manager -->
-		{% endif %}
 	</head>
 	<body>
-		{% if jekyll.environment == 'production' %}
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K88LNBM"  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		{% endif %}
 		<header>
 			<div class="container">
 				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/mtnfoglogo.png" alt="Mountain Fog Logo" /></a></div>
